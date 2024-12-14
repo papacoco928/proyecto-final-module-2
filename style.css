@@ -1,3 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Urbanist', 'Archivo', sans-serif;
+    font-size: 16px;
+
+}
+
+.wrapper-main {
+    width: 90%;
+    height: 400vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-logo img {
+    width: 200px;
+    height: auto;
+}
+
+.wrapper-slogan {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+p, h1 {
+    margin: 1rem;
+}
+
+.wrapper-image {
+    margin-top: 3em;
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.wrapper-info {
+    width: 80%;
+}
+
+.wrapper-info h4{
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.wrapper-info p{
+    font-size: 0.8rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.wrapper-info-button {
+    color: white;
+    background: #122130;
+    border-radius: 8px;
+    width: 225px;
+    height: 2.5rem;
+    font-family: 'Archivo', 'Urbanist', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-indent: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.wrapper-info-button-svg {
+    background: white;
+    width: 15%;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
