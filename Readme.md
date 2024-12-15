@@ -17,6 +17,7 @@ La página se adapta al ancho de un dispositivo cambiando sus estilos en los sig
 
 **Nota:** Los breakpoints se establecen utilizando media queries y el ancho el que cambiaran los estilos siguiedo el siguiente formato: 
 
+
 ```
 @media screen and (min-width: 480px) {
     .
