@@ -36,7 +36,6 @@ html {
 }
 
 .wrapper-menu-nav {
-    font-size: 0.8em;
     display: none;
 }
 
@@ -80,14 +79,18 @@ p, h1 {
     width: 90%;
 }
 
-.wrapper-info h4{
-    font-size: 1.5rem;
+.wrapper-info-text h4{
+    font-size: 1rem;
     margin: 0.5rem 0 0.5rem 0;
 }
 
-.wrapper-info p{
+.wrapper-info-text p{
     font-size: 0.8rem;
     margin: 1rem 0 1rem 0;
+}
+
+.wrapper-info a {
+    text-decoration: none;
 }
 
 .wrapper-info-button {
@@ -99,11 +102,10 @@ p, h1 {
     font-family: 'Archivo', 'Urbanist', sans-serif;
     font-size: 0.8rem;
     font-weight: 400;
-    text-indent: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 5px 5px 5px 15px;
 }
 
 .wrapper-info-button-svg {
@@ -114,6 +116,10 @@ p, h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wrapper-info-button:hover {
+    background: #92a7bd;
 }
 
 @media screen and (min-width: 480px) {
@@ -130,6 +136,7 @@ p, h1 {
 
     .wrapper-menu-nav {
         display: inline-block;
+        font-size: 0.8em;
     }
 
     .wrapper-content {
@@ -138,7 +145,7 @@ p, h1 {
     }
 
     .wrapper-story {
-
+        margin-top: 2rem;
         display: inline-block;
     }
 
